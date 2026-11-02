@@ -1,0 +1,30 @@
+# Never commit firmware images, setup variable snapshots or private RAM dumps
+*.rom
+*.ROM
+*.fd
+*.FD
+*.cap
+*.CAP
+*.aml
+*.AML
+*.BIN
+*.bin
+*.317
+K3605ZCAS*.zip
+HII10_BASE*
+Setup.bin
+LIVE*_*.BIN
+AMITSE_PE32*
+IFR_reference*
+IFR_forms_package*
+string_en.json
+catalog.json
+catalog.h
+# Generated build products in source trees (historical EFI snapshots live under artifacts/)
+src/**/*.EFI
+src/**/*.obj
+src/**/*.o
+src/**/*.exe
+__pycache__/
+*.pyc
+.DS_Store

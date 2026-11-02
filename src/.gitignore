@@ -1,0 +1,4 @@
+*.efi
+*.o
+*.so
+ovmf-disk
